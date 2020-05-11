@@ -1,0 +1,114 @@
+body{	
+background-image: url("fundo.png");
+}
+
+.mv-auto{
+	min-height: 100vh;
+	display: absolute;
+	top:-100px;
+	align-items: center;
+}
+
+.card{
+	background:none transparent;
+	color:white;
+}
+
+input[type=email]{   
+	color: #FFFFFF;
+    box-shadow: 1px 1px 2px ;    
+    background: none transparent; 
+    border:1px solid  #FFFFFF;
+    width:300px;
+}
+
+input[type=password]{   
+	color: #FFFFFF;
+    box-shadow: 1px 1px 2px ;    
+    background: none transparent;
+    border:1px solid #FFFFFF;
+    width:300px;
+}
+
+input[type=text]{   
+	color: #FFFFFF;
+    box-shadow: 1px 1px 2px ;    
+    background: none transparent; 
+    border:1px solid #FFFFFF;
+    width:300px;
+}
+
+
+.form-group input{
+	height: auto;
+	border-radius: 10rem;
+	size: 10pt;
+	color: #FFFFFF;
+	font-weight: bold;
+	margin-left: 100px;
+}
+
+label{
+	margin-left: 120px;
+	/*font-weight: bold;*/
+}
+
+.login{
+	margin-left: 20px;
+	font-weight: bold;
+}
+
+.imagem{
+	width: 75px;
+	
+}
+.reset{
+	margin-left: 170px;
+}
+
+/*.cadastro{
+	color: white;
+	background: #00BFFF;
+	font-weight: bold;
+	margin-left: 200px;
+	width:300pt;
+	box-shadow: 1px 1px 2px ;   
+	border: 2px solid #00BFFF;
+    border-radius: 12px;
+    margin-top: 2px;
+    margin-bottom: 2px; 
+    letter-spacing: 0.2rem;
+	
+}*/
+
+form .btn{
+	font-size: 80%;
+	border-radius: 10rem;
+	letter-spacing: 0.2rem;
+	/*font-weight: bold;
+	padding: 1rem;*/
+	/*margin-left: 100px;*/
+}
+
+.btn-login{
+	color:white;
+	background: #32CD32;
+	border: #32CD32;
+	width: 300px;
+	margin-left: 100px;
+}
+
+.btn-cadastro{
+	color:white;
+	background: #00BFFF;
+	width: 300px;
+	/*margin-left: 100px;*/
+}
+
+.btn-cad2{
+	color:white;
+	background: #00BFFF;
+	width: 300px;
+	/*margin-right: 100px;*/
+
+}
